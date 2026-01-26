@@ -59,9 +59,10 @@ Además, otra cosa que debes recordar es que estaremos escribiendo algo de códi
 
 Así que si eres nuevo en Python te recomendaría que vayas a dicha sección y lo aprendas.
 
-Si no has instalado Python, te recomendaría ir a [Python](https://www.python.org/) y seguir los pasos para descargar Python para Mac, Linux o Windows del que estés usando.
+Si no has instalado Python, te recomendaría ir a <a href="https://www.python.org/" target="_blank">Python</a> y seguir los pasos para descargar Python para Mac, Linux o Windows del que estés usando.
 
 Si eres principiante de Python --> [Click aquí](../python/DocPython.md)
 
 Si desea continuar con el modelo de IA --> [Click aquí](./01d_ConstruirAgenteIASimple.md)
+
 Si desea volver al apartado anterior (Ollama) --> [Click aquí](./01b_Ollama.md)

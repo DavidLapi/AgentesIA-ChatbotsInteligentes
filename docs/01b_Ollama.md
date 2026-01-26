@@ -39,8 +39,10 @@ Requiere de *Windows 10* o una versión más reciente.
 
 Si tienes Windows, puedes descargar para Windows desde la opción y ejecutarlo. El archivo ejecutable que descargas (archivo .exe), y sigues los pasos para instalarlo.
 
+---
 **Consejo**:
 Siempre se aconseja asegurarse de reiniciar tu máquina por si acaso hubiera algunos problemas o inconvenientes, o se necesita configurar algo.
+---
 
 Abrimos símbolo de consola:
 
@@ -53,7 +55,7 @@ Pero no importa en qué máquina estemos ejecutando. Puedes ir al símbolo de si
 ```bash
 ollama --version
 ```
-Si te da una versión "ollama version is 0.5.11", eso significa que el programa está instalado correctamente.
+Si te da una versión "ollama version is 0.5.11" o más reciente **(0.15.1)**, eso significa que el programa está instalado correctamente.
 Si no te da una versión, eso significa que hay algo mal.
 Si persiste el error ""ollama" no se reconoce como un comando interno o externo,
 programa o archivo por lotes ejecutable." u otro error, hazmelo saber en comentarios.

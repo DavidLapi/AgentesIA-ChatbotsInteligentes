@@ -51,7 +51,7 @@ ollama pull deepseek-r1
 ollama pull gemma
 ```
 
-Si se vuelve a instalar de nuevo "mistral" con el mismo comando, saldría instantáneo porque ya se encuentra disponible para construir nuestro agente de IA.
+Si se vuelve a instalar de nuevo "mistral" con el mismo comando, saldría instantáneo el resultado porque ya se encuentra disponible para construir nuestro agente de IA.
 
 Así que asegúrate de tenerlo disponible. descárgalo antes de pasar al siguente proyecto.
 
@@ -60,3 +60,8 @@ Además, otra cosa que debes recordar es que estaremos escribiendo algo de códi
 Así que si eres nuevo en Python te recomendaría que vayas a dicha sección y lo aprendas.
 
 Si no has instalado Python, te recomendaría ir a [Python](https://www.python.org/) y seguir los pasos para descargar Python para Mac, Linux o Windows del que estés usando.
+
+Si eres principiante de Python --> [Click aquí](../python/DocPython.md)
+
+Si desea continuar con el modelo de IA --> [Click aquí](./01d_ConstruirAgenteIASimple.md)
+Si desea volver al apartado anterior (Ollama) --> [Click aquí](./01b_Ollama.md)

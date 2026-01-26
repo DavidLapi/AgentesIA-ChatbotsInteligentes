@@ -1,4 +1,4 @@
-# Introducción a Aagentes de IA y herramientas
+# Introducción a Agentes de IA y herramientas
 
 Bienvenidos al primer día del curso práctico de Agentes de IA, donde veremos una introducción a los agentes de IA y las diferentes herramientas que podemos usar.
 
@@ -17,3 +17,5 @@ Ollama es la herramienta que usaremos para construir nuestros agentes de IA loca
 4. Construir y ejecutar un agente de IA básico usando LangChain y Ollama.
 
 Al final de hoy, tendrás un agente de IA funcionando localmente en tu máquina.
+
+Siguiente --> [**Click aquí**](./01a_AgentesIA.md)

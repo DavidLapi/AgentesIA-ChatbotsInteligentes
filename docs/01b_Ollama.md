@@ -50,7 +50,7 @@ Abrimos símbolo de consola:
 C:/Users/alumno/Desktop/AIAgents
 ```
 
-Aparecemos en mi escritorio y está "AIAgents", una carpeta creada por mí. 
+Aparecemos en mi escritorio y está "AIAgents", una carpeta creada por tí. 
 Pero no importa en qué máquina estemos ejecutando. Puedes ir al símbolo de sistema y ejecutar:
 ```bash
 ollama --version

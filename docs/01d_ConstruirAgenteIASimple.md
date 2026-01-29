@@ -188,3 +188,7 @@ Make your question (or write 'exit' to stop the machine):
 # Y listo 🥳 
 
 Ya tenemos nuestro primer chatbot básico para poder aprender.
+
+Anterior --> [**Click aquí**](./01c_ModeloAgentesIA.md)
+
+Siguiente --> [**Click aquí**](./01e_agregarmemoria.md)

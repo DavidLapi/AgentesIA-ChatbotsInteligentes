@@ -14,10 +14,12 @@ Lo que hay que hacer es instalar primero las **dependencias de memoria**. Luego 
 
 - Limpiamos la terminal --> **cls** o **clear**
 
-- Volvemos al archivo "basic_ai_agent.py" y actualizamos el código.
+- Volvemos al archivo "basic_ai_agent.py" y vamos a comentar TODO el código desde la primera línea de código. Empezaremos a programar desde ahí arriba del todo el archivo:
 
 ```py
-# Primero comentamos TODO el código
+# ⬇️⬇️⬇️ Empezaremos el código aquí ⬇️⬇️⬇️
+
+# 🔼🔼🔼 Código aquí 🔼🔼🔼
 # from langchain_ollama import OllamaLLM
 
 # Load AI Model from Ollama
@@ -32,8 +34,6 @@ Lo que hay que hacer es instalar primero las **dependencias de memoria**. Luego 
 #         break
 #     response = llm.invoke(question)
 #     print("\n Response for IA: ", response)
-# ---
-# Movemos ese código al final del archivo y empezaremos a codificar en la primera línea de código.
 ```
 
 1. El primer paso es importar el siguiente paquete:

@@ -172,9 +172,13 @@ Type 'exit' to stop.
 
 Le vamos a preguntar: "What is AI Agent?" (¿Qué es un agente de IA?) El proceso sería el mismo, pero recordará la primera pregunta y lo guardará en la memoria. El resultado sería algo así:
 
+![RespuestaIA](./img/ResponseAI.png)
+
 *📨 AI:  An AI Agent is a software or system that can perform tasks autonomously, make decisions based on data inputs, and interact with its environment. It's designed to mimic human-like intelligence in various aspects such as learning, problem-solving, perception, and decision making. Examples of AI Agents include chatbots, recommendation systems, self-driving cars, and virtual assistants.*
 
 Ahora vamos a preguntar: "Who invented AI?" (¿Quién inventó la IA?). Veamos qué dice:
+
+![RespuestaIA](./img/ResponseAI_2.png)
 
 *📨 AI:  The concept of artificial intelligence (AI) has been around for a long time, but it wasn't until the 1950s that the field truly began to develop. One of the key figures in the early days of AI was John McCarthy, an American computer scientist and cognitive scientist. He coined the term "Artificial Intelligence" in 1956, and he also organized the Dartmouth Conference that year which is considered the birthplace of AI as a formal academic discipline.
 
@@ -182,22 +186,21 @@ However, it's important to note that the development of AI involves contribution
 
 Ahora preguntamos: Can it learn by itself? (¿Puede aprender por sí mismo?). Veamos qué dice:
 
-*📨 AI:  Yes, AI can learn by itself to a certain extent. Machine learning, a subset of artificial intelligence, enables AI systems to automatically improve their performance on a specific task by learning from data without being explicitly programmed. This allows the AI to adapt and make decisions based on patterns in the data it encounters.
-
-However, while AI can learn autonomously, it still needs guidance during the initial training phase and may require human intervention for fine-tuning or correcting any errors that occur in its learning process. Additionally, the quality of an AI's output is often dependent on the quality and quantity of data provided for its training.*
+![RespuestaIA](./img/ResponseAI_3.png)
 
 Ahora le preguntamos: "What was the first question I asked?* (¿Cual fue la primera pregunta que he preguntado?). Veamos que dice:
 
-*📨 AI:  The first question you asked was "What is AI Agent?"*
+![RespuestaIA](./img/ResponseAI_4.png)
 
 Tu pregunta fue: "Qué es un agente de IA?" Si recuerdas, esa fue nuestra primera pregunta. Ahora lo recuerda. Así que tiene un poco el contexto de lo que estoy haciendo. Y de alguna manera retoma la siguiente sesión con ese contexto. Así que lo que sea que preguntes, puedes tener una conversación normal con este agente de IA.
 
 Y finalmente puedo simplemente salir "exit" y se escapa de eso:
 
-```
-You: exit
+![RespuestaIA](./img/ResponseAI_5.png)
 
-👋 Good Bye!!
-```
  
 Así que eso es nuestro añadido. Así es cómo puedes añadir memoria a tu agente de IA. Así que de nuevo, si tuviste algún problema o inconveniente con esto, házmelo saber en los mensajes.
+
+Anterior --> [**Click aquí**](./01d_ConstruirAgenteIASimple.md)
+
+Siguiente --> [**Click aquí**](./01f_Interfazweb.md)

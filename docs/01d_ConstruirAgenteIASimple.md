@@ -176,14 +176,25 @@ C:\Users\alumno\Desktop\AIAgents\Day1> py .\basic_ai_agent.py
 Welcome to your Agent IA! Ask me something...
 Make your question (or write 'exit' to stop the machine): 
 
-# Le haremos una pregunta en inglés para empezar, porque el modelo instalado no es multiidioma.
-# Le preguntaremos algo como: Qué es IA?
-# Nos saldría una respuesta como esta:
-# ---
-# Response for IA:   IA, or Intelligent Assistants, refer to computer systems and software designed to perform tasks for human users. These tasks can range from answering questions, making recommendations, scheduling appointments, sending messages, or even controlling other applications. Examples of Intelligent Assistants include virtual assistants like Siri, Alexa, Google Assistant, and Cortana. They are powered by artificial intelligence (AI), natural language processing (NLP), and machine learning (ML) technologies to understand user requests and respond in a conversational manner. The goal is to make interactions with technology more seamless, intuitive, and human-like.
-# ---
-
 ```
+
+Vamos a probar a escribir una pregunta: "What is IA?" (¿Qué es IA?). Te respondería algo como esto:
+
+![RespuestaIA](./img/ResponseBasic_1.png)
+
+Vamos a por la siguiente pregunta: "Can it learn by itself?" (¿Puede aprender por sí mismo?). Veamos qué responde:
+
+![RespuestaIA](./img/ResponseBasic_2.png)
+
+Bueno, parece que va respondiendo bien la máquina. Ahora para complicarlo vamos a preguntar Cuál fue la primera pregunta que le hemos hecho (What was the first question I asked?): Veamos qué responde esta vez:
+
+![RespuestaIA](./img/ResponseBasic_3.png)
+
+⏰ Aquí ha saltado un error de programación. La respuesta de la IA no ha coincidido con la primera pregunta que le hemos hecho al arrancar la aplicación.
+
+Esto se debe a que la IA no tiene agregada la memoria para recordar lo que vino antes. Esto se explicará en más profundidad sobre este tema. Por el momento, vamos saliendo de la aplicación escribiendo 'exit'.
+
+![RespuestaIA](./img/ResponseBasic_4.png)
 
 # Y listo 🥳 
 

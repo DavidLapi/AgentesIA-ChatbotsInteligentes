@@ -172,17 +172,11 @@ Type 'exit' to stop.
 
 Le vamos a preguntar: "What is AI Agent?" (¿Qué es un agente de IA?) El proceso sería el mismo, pero recordará la primera pregunta y lo guardará en la memoria. El resultado sería algo así:
 
-![RespuestaIA](./img/ResponseAI.png)
-
-*📨 AI:  An AI Agent is a software or system that can perform tasks autonomously, make decisions based on data inputs, and interact with its environment. It's designed to mimic human-like intelligence in various aspects such as learning, problem-solving, perception, and decision making. Examples of AI Agents include chatbots, recommendation systems, self-driving cars, and virtual assistants.*
+![RespuestaIA](./img/ResponseAI_1.png)
 
 Ahora vamos a preguntar: "Who invented AI?" (¿Quién inventó la IA?). Veamos qué dice:
 
 ![RespuestaIA](./img/ResponseAI_2.png)
-
-*📨 AI:  The concept of artificial intelligence (AI) has been around for a long time, but it wasn't until the 1950s that the field truly began to develop. One of the key figures in the early days of AI was John McCarthy, an American computer scientist and cognitive scientist. He coined the term "Artificial Intelligence" in 1956, and he also organized the Dartmouth Conference that year which is considered the birthplace of AI as a formal academic discipline.
-
-However, it's important to note that the development of AI involves contributions from many other pioneers such as Alan Turing, Marvin Minsky, Herbert Simon, and others. The field has continued to evolve rapidly since its inception, with significant advances made over the past few decades due to improved computing power and new algorithms and methodologies.*
 
 Ahora preguntamos: Can it learn by itself? (¿Puede aprender por sí mismo?). Veamos qué dice:
 

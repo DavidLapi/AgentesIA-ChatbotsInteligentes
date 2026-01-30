@@ -13,4 +13,8 @@ El objetivo de hoy es construir un asistente personal impulsado por IA que pueda
 - Recordar **conversaciones pasadas**.
 - Realizar **tareas útiles** como abrir aplicaciones, establecer recordatorios, etc.
 
-Así que al final del segundo día tendrás un asistente de control por voz de IA completamente funcional. Asíq eu comencemos con nuestro asistente personal impulsado por IA.
+Así que al final del segundo día tendrás un asistente de control por voz de IA completamente funcional. Así que comencemos con nuestro asistente personal impulsado por IA.
+
+Anterior --> [**Click aquí**](../Day1/01f_Interfazweb.md)
+
+Siguiente --> [**Click aquí**](02a_Dependencias.md)

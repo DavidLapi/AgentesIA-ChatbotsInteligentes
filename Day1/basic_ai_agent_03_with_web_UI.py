@@ -46,3 +46,5 @@ if user_input:
 st.subheader("📜 Chat History")
 for msg in st.session_state.chat_history.messages:
     st.write(f"**{msg.type.capitalize()}**: {msg.content}")
+
+# Para ejecutar: streamlit run basic_ai_agent_03_with_web_UI.py

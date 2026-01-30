@@ -14,3 +14,5 @@ while True:
         break
     response = llm.invoke(question)
     print("\n Response for IA: ", response)
+
+# Para ejecutar: python basic_ai_agent_01.py

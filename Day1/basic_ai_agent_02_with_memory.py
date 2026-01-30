@@ -42,3 +42,5 @@ while True:
 
     ai_response = run_chain(user_input)
     print(f"\n📨 AI: {ai_response}")
+
+# Para ejecutar: python basic_ai_agent_02_with_memory.py

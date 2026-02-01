@@ -16,7 +16,9 @@ Nos vamos a la terminal con nuestra ruta de entorno de trabajo:
 
 *C:\Users\alumno\Desktop\AIAgents\Day1>*
 
-Nos retrocedemos a la carpeta AIAgents (ejecuta cd ..) y nos vamos a crear una carpeta nueva. Se va a llamar *Day2*. Nos dirigimos a la carpeta creada y creamos un nuevo archivo.
+Nos retrocedemos a la carpeta AIAgents (ejecuta cd ..) y nos vamos a crear una carpeta nueva. Se va a llamar *Day2*. Nos dirigimos a la carpeta creada y así crearnos un nuevo archivo:
+
+*C:\Users\alumno\Desktop\AIAgents\Day2>*
 
 Antes de eso, instalaremos nuestras dependencias. Ejecutaremos el siguiente comando:
 
@@ -27,3 +29,7 @@ pip install speechrecognition pyttsx3 langchain_ollama
 Una vez instalado las dependencias limpiamos la pantalla (ejecutar **cls** o **clear**). Puede tomar algo de tiempo si no has instalado las dependencias. Si ya lo has instalado, no necesitas instalarlo de nuevo.
 
 Esto completa nuestra instalacion de dependencias.
+
+Anterior --> [**Click aquí**](./02_Intro.md)
+
+Siguiente --> [**Click aquí**](./)

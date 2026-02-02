@@ -253,3 +253,7 @@ A continuación, imprimiremos la respuesta de la IA que sea la respuesta que obt
 Y hasta aquí, ya hemos terminado toda nuestra aplicación, como podemos ver en el archivo. En la siguiente sección, vamos a continuar y hablar sobre ello de lo que hemos hecho aquí.
 
 Hemos creado el script de Python que escucha, procesa y responde. 🎉
+
+Anterior --> [**Click aquí**](./02a_Dependencias.md)
+
+Siguiente --> [**Click aquí**](./02c_ArrancarAsistente.md)

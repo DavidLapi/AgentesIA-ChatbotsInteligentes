@@ -19,3 +19,7 @@ También enviará el historial de chat y luego te devolverá la respuesta que se
 - Finalmente, sigue funcionando hasta que el usuario diga "exit" o "stop".
 
 Resumiendo bien el código del archivo anterior (ai_voice_assistant.py), así es cómo funciona todo este asistente de inteligencia artificial ahora mismo. 
+
+Anterior --> [**Click aquí**](./02b_AsistenteDeVoz.md)
+
+Siguiente --> [**Click aquí**](./02d_EjecutarAsistente.md)

@@ -68,5 +68,5 @@ while True:
         break
     if query:
         response = run_chain(query)
-        print("\n🤖 AI Response: {response}")
+        print(f"\n🤖 AI Response: {response}")
         speak(response)

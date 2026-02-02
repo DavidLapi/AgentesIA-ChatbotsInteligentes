@@ -32,4 +32,4 @@ Esto completa nuestra instalacion de dependencias.
 
 Anterior --> [**Click aquí**](./02_Intro.md)
 
-Siguiente --> [**Click aquí**](./)
+Siguiente --> [**Click aquí**](./02b_AsistenteDeVoz.md)

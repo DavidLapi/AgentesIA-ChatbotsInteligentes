@@ -18,6 +18,6 @@ Al final de hoy, tendrás un agente de IA inteligente que navega y resume sitios
 
 Así que, sin más preámbulos, vamos a sumergirnos en nuestro agente de raspado web impulsado por IA.
 
-Siguiente --> [**Click aquí**](./03a_dependencias.md)
+Siguiente --> [**Click aquí**](./03a_Dependencias.md)
 
 Día anterior --> [**Click aquí**](../Day2/02e_AsistenteDeVozConUI.md)

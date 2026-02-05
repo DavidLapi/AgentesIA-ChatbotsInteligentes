@@ -71,14 +71,14 @@ def scrape_website(url): #1
         if response.status_code != 200: #6
             return f"☣️ Failed to fetch {url}" #7
 
-        # Extract text content #8
-        soup = BeautifulSoup(response.text, "html.parser") #9
-        paragraphs = soup.find_all("p") #10
-        text = " ".join([p.get_text() for p in paragraphs]) #11
+        # Extract text content 
+        soup = BeautifulSoup(response.text, "html.parser") #8
+        paragraphs = soup.find_all("p") #9
+        text = " ".join([p.get_text() for p in paragraphs]) #10
 
-        return text[:2000] #12
-    except Exception as e: #13
-        return f"❌ Error: {str(e)}" #14
+        return text[:2000] #11
+    except Exception as e: #12
+        return f"❌ Error: {str(e)}" #13
 ```
 
 1. Esta función se llama "scrape_website", que sirve para tomar una URL como entrada y extrae su contenido.
@@ -95,19 +95,17 @@ def scrape_website(url): #1
 
 7. Entonces se devuelve la respuesta de que no se pudo obtener la URL especificada.
 
-8. Se procede a extraer el contenido del texto.
+8. Esto analiza el contenido HTML que obtuvimos de la página web usando *BeautifulSoup*.
 
-9. Esto analiza el contenido HTML que obtuvimos de la página web usando *BeautifulSoup*.
+9. Lo que hace es encontrar todas las etiquetas HTML o etiquetas de párrafo "p" en la página web.
 
-10. Lo que hace es encontrar todas las etiquetas HTML o etiquetas de párrafo "p" en la página web.
+10. La variable "text" hace que se unan todos los párrafos juntos separados por un espacio. Nuevamente, "text" extrae el texto de cada párrafo y los une una sola cadena.
 
-11. La variable "text" hace que se unan todos los párrafos juntos separados por un espacio. Nuevamente, "text" extrae el texto de cada párrafo y los une una sola cadena.
+11. Devuelve el texto anterior, pero lo limita a 2000 caracteres (*:2000*) para evitar que sobrecargue el modelo de IA. Si se quiere aumentar más, puedes aumentar más si lo deseas.
 
-12. Devuelve el texto anterior, pero lo limita a 2000 caracteres (*:2000*) para evitar que sobrecargue el modelo de IA. Si se quiere aumentar más, puedes aumentar más si lo deseas.
+12. Verificamos las excepciones.
 
-13. Verificamos las excepciones.
-
-14. Si ocurre un error, captura la excepción y devuelve un mensaje de error.
+13. Si ocurre un error, captura la excepción y devuelve un mensaje de error.
 
 ## Función para resumir contenido usando IA
 

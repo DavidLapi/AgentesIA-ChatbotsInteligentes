@@ -82,7 +82,9 @@ from langchain.schema import Document # Documentos
 
 ## Datos importantes
 
-- **from langchain_huggingface import HuggingFaceEmbedding**: 
+- **from langchain_huggingface import HuggingFaceEmbeddings**: 
+
+Esta importación saca una clase "HugginFaceEmbeddings" que te permite usar modelos de embedding de Hugging Face (una plataforma con miles de modelos de IA open-source), y sirve para convertir tus textos en vectores.
 
 Esta es una importación actualizada. Esto solía ser un poco diferente de la versión anterior.Así que si tenías la anterior, se obtenía directamente de Langchain. Ejecutaríamos el siguiente comando: 
 
@@ -135,7 +137,7 @@ llm = OllamaLLM(model="mistral") # Change to "llama3" or another Ollama model
 
 ## Hugging Face Embeddings
 
-A continuación, cargaremos las incrustaciones d la página de Hugging:
+A continuación, cargaremos las incrustaciones de la página de Hugging:
 
 ```py
 # Load Hugging Face Embeddings (Update)
@@ -161,5 +163,35 @@ El *"index"* crea un índice de archivos para la búsqueda de similitud. La *"In
 La dimensión del vector para el almacén de vectores miniLM está vacía. Por eso, hemos creado un almacén de vectores (*"vector_store"*) que es un diccionario para guardar URLs y verificaciones.
 
 ## Función para extraer datos de un sitio web
+
+Ahora vamos a escribir una función para extraer datos de un sitio web:
+
+```py
+# Function to scrape a website
+def scrape_website(url): #1
+    try: #2
+        st.write(f"🌍 Scraping website: {url}") #3
+        headers = {"User-Agent": "Mozilla/5.0"} #4
+        response = requests.get(url, headers=headers) #5
+
+        if response.status_code != 200: #6
+            return f"☣️ Failed to fetch {url}" #7
+        
+        # Extract text content
+        soup = BeautifulSoup(response.text, "html.parser") #8
+        paragraphs = soup.find_all("p") #9
+        text = " ".join([p.get_text() for p in paragraphs]) #10
+
+        return text[:5000] #11
+    except Exception as e: #12
+        return f"❌ Error: {str(e)}" #13
+        
+```
+
+Entre el punto 1 y 13 te lo explica en el siguiente enlace --> [**03b_WebScraper**](./03b_WebScraper.md)
+
+Esta vez vamos a devolver un texto que va a utilizar *5000* caracteres para evitar un procesamiento excesivo.
+
+## Función para almacenar datos en FAISS
 
 Proximamente...

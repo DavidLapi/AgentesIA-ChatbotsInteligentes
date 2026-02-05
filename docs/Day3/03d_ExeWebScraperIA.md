@@ -64,4 +64,4 @@ Así que nada, ya tenemos nuestra aplicación en funcionamiento. Espero que haya
 
 Anterior --> [**Click aquí**](./03c_FuncionScraper.md)
 
-Almacenar Datos Extraídos en una Base de Datos Vectorial --> Próximamente...
+Almacenar Datos Extraídos en una Base de Datos Vectorial --> [**Click aquí**](./03e_DataBaseScraper.md)

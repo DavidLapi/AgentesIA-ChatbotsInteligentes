@@ -179,6 +179,6 @@ Pero si hay un fallo en el contenido o un error en el contenido, escribiremos lo
 
 Nuestra aplicación ya está completa y lista para funcionar, así que este es **todo** el código que necesitamos escribir para crear nuestro **scraper web de IA**. Espero que hayas podido seguir y entender esto, y pronto estaremos ejecutando este archivo.
 
-Anterior --> [**Click aquí**](./03a_Dependencias.md)
+Anterior --> [**Click aquí**](./03a_InstalarDependencias.md)
 
 Siguiente --> [**Click aquí**](./03c_FuncionScraper.md)

@@ -46,7 +46,7 @@ Ejecutamos el comando y, después de instalar dependencias, limpiamos la termina
 
 ## Recuento de dependencias ya instalados 
 
-(Por si no viste --> [03a_Dependencias](./03a_Dependencias.md)):
+Por si no viste --> [03a_Dependencias](./03a_InstalarDependencias.md):
 
 1. **requests** --> Obtiene datos de páginas web.
 

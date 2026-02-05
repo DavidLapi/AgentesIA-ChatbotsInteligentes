@@ -194,4 +194,49 @@ Esta vez vamos a devolver un texto que va a utilizar *5000* caracteres para evit
 
 ## Función para almacenar datos en FAISS
 
+A continuación, vamos a escribir la función para almacenar datos en FAISS:
+
+```py
+# Function to store data in FAISS
+def store_in_faiss(text, url): #1
+    global index, vector_store #2
+    st.write("📩 Storing data in FAISS...") #3
+
+    # Split text into chunks
+    splitter = CharacterTextSplitter(chunk_size=500, chunk_overlap=100) #4
+    texts = splitter.split_text(text) #5
+
+    # Convert text into embeddings
+    vectors = embeddings.embed_documents(texts) #6
+    vectors = np.array(vectors, dtype=np.float32) #7
+
+    # Store in FAISS
+    index.add(vectors) #8
+    vector_store[len(vector_store)] = (url, texts) #9
+
+    return "✅ Data stored successfully!" #10
+```
+
+1. Creamos la función "store_in_faiss" con sus parámetros "text" y "url".
+
+2. Esto declara "index" y "vector_store" como *variables globales* para modificarlas fuera de esta función también.
+
+3. Mostramos un mensaje en *streamlit* diciendo "Almacenando datos en FAISS...".
+
+4. Ahí se empieza a dividir el texto en fragmentos. Esta línea divide el texto en fragmentos de 500 caracteres (chunk_size) con una superposición de 100 caracteres (chunk_overlap).
+
+5. Esto divide completamente el texto en fragmentos de 500 caracteres basado en la línea anterior.
+
+6. Ahí empezamos a convertir texto en incrustaciones. Esta línea hace convertir los fragmentos de texto en incrustaciones usando el modelo de Hugging Face.
+
+7. Después convierte las incrustaciones en un array de numpy en formato float32 (dtype=np.float32).
+
+8. Vamos a almacenar las incrustaciones creadas en archivos añadiendolos al "index".
+
+9. Mediremos la longitud de los datos incrustados con la url y los textos.
+
+10. Devolvemos los datos con éxito.
+
+# Función para recuperar fragmentos relevantes y responder preguntas
+
 Proximamente...

@@ -41,3 +41,22 @@ def scrape_website(url):
         return text[:5000] # Limit characters to avoid overloading AI        
     except Exception as e:
         return f"❌ Error: {str(e)}"
+    
+# Function to store data in FAISS
+def store_in_faiss(text, url):
+    global index, vector_store
+    st.write("📩 Storing data in FAISS...")
+
+    # Split text into chunks
+    splitter = CharacterTextSplitter(chunk_size=500, chunk_overlap=100)
+    texts = splitter.split_text(text)
+
+    # Convert text into embeddings
+    vectors = embeddings.embed_documents(texts)
+    vectors = np.array(vectors, dtype=np.float32)
+
+    # Store in FAISS
+    index.add(vectors)
+    vector_store[len(vector_store)] = (url, texts)
+
+    return "✅ Data stored successfully!"

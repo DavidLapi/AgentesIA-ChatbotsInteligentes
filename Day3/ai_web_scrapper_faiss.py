@@ -60,3 +60,24 @@ def store_in_faiss(text, url):
     vector_store[len(vector_store)] = (url, texts)
 
     return "✅ Data stored successfully!"
+
+# Function to retrieve relevant chunks and answer questions
+def retrieve_and_answer(query):
+    global index, vector_store
+
+    # Convert query into embedding
+    query_vector = np.array(embeddings.embed_query(query), dtype=np.float32).reshape(1, -1)
+
+    # Search FAISS
+    D, I = index.search(query_vector, k=2) # Retrieve top 2 similar chunks
+
+    content = ""
+    for idx in I[0]:
+        if idx in vector_store:
+            context += " ".join(vector_store[idx][1]) + "\n\n"
+
+    if not context:
+        return "📩 No relevant data found."
+    
+    # Ask AI to generate an answer
+    return llm.invoke(f"Based on the following context, answer the question:\n\n{context}\n\n Question: {query}\nAnswer:")

@@ -239,4 +239,55 @@ def store_in_faiss(text, url): #1
 
 # Función para recuperar fragmentos relevantes y responder preguntas
 
+A continuación vamos a escribir una función para recuperar fragmentos relevantes y sus preguntas:
+
+```py
+# Function to retrieve relevant chunks and answer questions
+def retrieve_and_answer(query): #1
+    global index, vector_store #2
+
+    # Convert query into embedding
+    query_vector = np.array(embeddings.embed_query(query), dtype=np.float32).reshape(1, -1) #3
+
+    # Search FAISS
+    D, I = index.search(query_vector, k=2) #4
+
+    content = "" #5
+    for idx in I[0]: #6
+        if idx in vector_store: #7
+            context += " ".join(vector_store[idx][1]) + "\n\n" #8
+    
+    if not context: #9
+        return "📩 No relevant data found." #10
+
+    # Ask AI to generate an answer
+    return llm.invoke(f"Based on the following context, answer the question:\n\n{context}\n\n Question: {query}\nAnswer:") #11
+```
+
+1. Creamos la función "store_in_faiss" con su parámetro de consulta "query". Esto define una función para recuperar fragmentos de texto relevantes de archivos.
+
+2. Como vimos en la función anterior, declaramos "index" y "vector_store" en *variables globales*.
+
+3. Corvierte la consulta del usuario en una incrustación en el array de numpy, de tipo "float32", y remodela eso a un vector de 1, -1.
+
+4. Ahí procedemos a buscar los archivos por el índice (index). Lee dos fragmentos similares (k=2), por lo cual busca los dos fragmentos de texto más relevantes.
+
+5. Declaramos variable "context" con un texto vacío.
+
+6. Iniciamos bucle "for" declarando variable "idx" para mostrar incrustación indicando "I" desde el punto 0 del array.
+
+7. Condición Si "idx" se encuentra en el almacenamiento del vector (vector_store).
+
+8. En caso verdadero, añade el contenido del vector en el "context". 
+
+Así que esta función recupera los fragmentos de texto que coinciden con la consulta y los adjunta en "context".
+
+9. Condición Si no hay contexto.
+
+10. En caso verdadero, devuelve el mensaje "No se enconró datos relevantes.". En caso falso, se seguirá con la función.
+
+11. Pidamos a la IA que genere una respuesta así que devolvemos la repuesta de la IA con el modelo LLM. Si hay un contexto y una pregunta, será la consulta que se pasa por "invoke". Así que eso procederá a recuperar datos de la base de datos *FAISS* y los devolverá a quien lo haya solicitado.
+
+# Interfaz web de Streamlit
+
 Proximamente...

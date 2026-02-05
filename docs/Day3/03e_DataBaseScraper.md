@@ -290,4 +290,66 @@ Así que esta función recupera los fragmentos de texto que coinciden con la con
 
 # Interfaz web de Streamlit
 
+Vamos a crear nuestra interfaz web de Streamlit:
+
+```py
+# Streamlit Web UI
+st.title("🤖 AI-Powered Web Scraper with FAISS Storage") #1
+st.write("⛓️‍💥 Enter a website URL below and store its knowledge for AI-based Q&A!") #2
+
+# User input for website
+url = st.text_input("⛓️‍💥 Enter Website URL:") #3
+if url: #4
+    content = scrape_website(url) #5
+
+    if "☣️ Failed" in content or "❌ Error" in content: #6
+        st.write(content) #7
+    else: #8
+        store_message = store_in_faiss(content, url) #9
+        st.write(store_message)#10
+
+# User input for Q&A
+query = st.text_input("❓ Ask a question based on stored content:") #11
+if query: #12
+    answer = retrieve_and_answer(query) #13
+    st.subheader("🤖 AI Answer:") #14
+    st.write(answer) #15
+```
+
+1. Añadimos un titulo de Streamlit que dice "Raspador web potenciado por IA con Almacenamiento FAISS"
+
+2. Damos una instrucción de texto. "Introduzca abajo una URL de sitio web y guarde para IA preguntas y respuestas". 
+
+3. Este es el campo de entrada de texto donde ingrese la URL del sitio web.
+
+4. Condición Si el usuario ingresa una URL.
+
+5. En caso verdadero, el contenido es *raspar la URL del sitio web*. Esto crea un cuadro de entrada de texto donde el usuario ingresa una URL de sitio web y llama a la función "scrape_website" para extraer contenido.
+
+6. Condición Si hay un fallo o un error en la URL.
+
+7. En caso verdadero, dará el mensaje de fallo o error basado en lo que obtenemos.
+
+8. Condición else si no hay fallo o error.
+
+9. Si tiene éxito, almacenará el mensaje, en archivos con el contenido de la URL.
+
+10. Luego muestra el mensaje al usuario ahí.
+
+11. A continuación, sigamos adelante y obtengamos la entrada del usuario para qna (preguntas y respuestas). Así que declaramos "query" para hacer la pregunta basada en el contenido almacenado.
+
+12. Condición Si hay consulta.
+
+13. En caso verdadero, muestra la respuesta (answer) para recuperar una respuesta basada en la consulta que el usuario ha ingresado.
+
+14. Subencabezado con respuesta IA.
+
+15. Respuesta HTTP. La respuesta que recuperamos la voy a mostrar al usuario.
+
+--- 
+
+Así que esa es **toda la aplicación** que no solo extrae el sitio web, sino que también lo almacena localmente, y luego te da la opción de hacer preguntas basadas en el contenido almacenado.
+
+## Ejecución de la aplicación
+
 Proximamente...

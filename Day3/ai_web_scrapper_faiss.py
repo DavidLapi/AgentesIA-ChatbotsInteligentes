@@ -81,3 +81,25 @@ def retrieve_and_answer(query):
     
     # Ask AI to generate an answer
     return llm.invoke(f"Based on the following context, answer the question:\n\n{context}\n\n Question: {query}\nAnswer:")
+
+# Streamlit Web UI
+st.title("🤖 AI-Powered Web Scraper with FAISS Storage")
+st.write("⛓️‍💥 Enter a website URL below and store its knowledge for AI-based Q&A!")
+
+# User input for website
+url = st.text_input("⛓️‍💥 Enter Website URL:")
+if url:
+    content = scrape_website(url)
+
+    if "☣️ Failed" in content or "❌ Error" in content:
+        st.write(content)
+    else:
+        store_message = store_in_faiss(content, url)
+        st.write(store_message)
+
+# User input for Q&A
+query = st.text_input("❓ Ask a question based on stored content:")
+if query:
+    answer = retrieve_and_answer(query)
+    st.subheader("🤖 AI Answer:")
+    st.write(answer)

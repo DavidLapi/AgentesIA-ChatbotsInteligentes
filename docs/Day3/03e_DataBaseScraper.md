@@ -252,7 +252,7 @@ def retrieve_and_answer(query): #1
     # Search FAISS
     D, I = index.search(query_vector, k=2) #4
 
-    content = "" #5
+    context = "" #5
     for idx in I[0]: #6
         if idx in vector_store: #7
             context += " ".join(vector_store[idx][1]) + "\n\n" #8
@@ -352,4 +352,50 @@ Así que esa es **toda la aplicación** que no solo extrae el sitio web, sino qu
 
 ## Ejecución de la aplicación
 
-Proximamente...
+El siguiente paso a seguir es ejecutar la aplicación. Así que nos dirigimos a la terminal situandonos en la ruta donde se encuentra la aplicación:
+
+*C:\Users\alumno\Desktop\AIAgents\Day3>*
+
+Una vez dentro, ejeutaremos la interfaz web con *Streamlit*:
+
+```bash
+streamlit run ai_web_scrapper_faiss.py
+```
+
+Una vez ejecutado, nos saldría este error en el navegador:
+
+![RespuestaIA](./img/response_faiss01.png)
+
+Esto se debe a que todavía no hemos instalado los transformadores de sentencia para convertir el texto en incrustaciones. Así que hacemos lo que nos pide el mensaje y ejecutamos el siguiente comando:
+
+```bash
+pip install sentence-transformers
+```
+
+Una vez instalado, volveremos a ejecutar la interfaz web y como resultado nos saldría así:
+
+![RespuestaIA](./img/response_faiss02.png)
+
+Para mí se me ha abierto el navegador, y si no te salta el navegador copia el enlace "localhost:8501" o "x.x.x.x:8501" (x marca los números de tu dirección IP) y ejecútala luego en el navegador.
+
+En la aplicación nos pide una URL, así que podemos usar el enlace de la wikipedia (https://es.wikipedia.org/wiki/Inteligencia_artificial) y ejecutarlo presionando Enter. 
+
+![RespuestaIA](./img/response_faiss03.png)
+
+Ahora entramos en el campo de preguntas y preguntamos: "What is IA?"
+
+![RespuestaIA](./img/response_faiss04.png)
+
+Y como resultado nos saldría el resultado de la IA:
+
+![RespuestaIA](./img/response_faiss05.png)
+
+Y me dio la respuesta basada en lo que obtuvo de ese almacén de datos que guardamos aquí.
+
+Así que, si también intento buscar estas cosas, problablemente lo encontraré en esta URL de Wikipedia aquí.
+
+Así que espero que hayas podido seguir y hacer que esto funcione tanto para construir un simple raspador web de IA con la interfaz de usuario como para construirlo y almacenarlo dentro de una base de datos vectorial.
+
+Anterior --> [**Click aquí**](./03d_ExeWebScraperIA.md)
+
+Día 4 --> Proximamente...

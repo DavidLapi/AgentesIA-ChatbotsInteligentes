@@ -71,7 +71,7 @@ def retrieve_and_answer(query):
     # Search FAISS
     D, I = index.search(query_vector, k=2) # Retrieve top 2 similar chunks
 
-    content = ""
+    context = ""
     for idx in I[0]:
         if idx in vector_store:
             context += " ".join(vector_store[idx][1]) + "\n\n"

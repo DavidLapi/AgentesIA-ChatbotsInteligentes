@@ -17,4 +17,4 @@ Así que al final del segundo día tendrás un asistente de control por voz de I
 
 Siguiente --> [**Click aquí**](02a_Dependencias.md)
 
-Día anterior --> [**Click aquí**](../Day1/01f_Interfazweb.md)
+Día anterior --> [**Click aquí**](../Day1/01_Intro.md)

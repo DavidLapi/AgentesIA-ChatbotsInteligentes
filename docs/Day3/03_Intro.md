@@ -20,4 +20,4 @@ Así que, sin más preámbulos, vamos a sumergirnos en nuestro agente de raspado
 
 Siguiente --> [**Click aquí**](./03a_InstalarDependencias.md)
 
-Día anterior --> [**Click aquí**](../Day2/02e_AsistenteDeVozConUI.md)
+Día anterior --> [**Click aquí**](../Day2/02_Intro.md)

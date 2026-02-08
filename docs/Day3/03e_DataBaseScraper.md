@@ -398,4 +398,4 @@ Así que espero que hayas podido seguir y hacer que esto funcione tanto para con
 
 Anterior --> [**Click aquí**](./03d_ExeWebScraperIA.md)
 
-Día 4 --> Proximamente...
+Día 4 --> [**Click aquí**](../Day4/04_Intro.md)

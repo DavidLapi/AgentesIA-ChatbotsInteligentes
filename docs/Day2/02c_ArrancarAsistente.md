@@ -20,6 +20,6 @@ También enviará el historial de chat y luego te devolverá la respuesta que se
 
 Resumiendo bien el código del archivo anterior (ai_voice_assistant.py), así es cómo funciona todo este asistente de inteligencia artificial ahora mismo. 
 
-Anterior --> [**Click aquí**](./02b_AsistenteDeVoz.md)
+Anterior página: Asistente de Voz --> [**Click aquí**](./02b_AsistenteDeVoz.md)
 
-Siguiente --> [**Click aquí**](./02d_EjecutarAsistente.md)
+Siguiente página: Ejecutar Asistente --> [**Click aquí**](./02d_EjecutarAsistente.md)

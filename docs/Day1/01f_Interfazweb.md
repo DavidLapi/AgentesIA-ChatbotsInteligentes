@@ -290,6 +290,6 @@ Si tienes alguna pregunta o tuviste algún problema al implementarlo, déjame sa
 
 Y con esto se finaliza el día 1, así que espero que hayas disfrutado de este primer día. Nos veremos en el día 2. 👋
 
-Anterior --> [**Click aquí**](./01e_AgregarMemoria.md)
+Anterior página: Agregar Memoria --> [**Click aquí**](./01e_AgregarMemoria.md)
 
-Pasar al siguiente día --> [**Click aquí**](../Day2/02_Intro.md)
+Pasar al día 2 --> [**Click aquí**](../Day2/02_Intro.md)

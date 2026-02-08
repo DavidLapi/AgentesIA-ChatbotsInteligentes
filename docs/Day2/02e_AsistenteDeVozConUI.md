@@ -216,6 +216,6 @@ Y listo! Ya nos lo guarda las preguntas que le hagamos en el historial del chat 
 
 Espero que lo hayas conseguido y hayas llegado hasta aquí.
 
-Día siguiente --> [**Click aquí**](../Day3/03_Intro.md)
+Anterior página: Ejecutar Asistente --> [**Click aquí**](./02d_EjecutarAsistente.md)
 
-Anterior --> [**Click aquí**](./02d_EjecutarAsistente.md)
+Pasar al día 3 --> [**Click aquí**](../Day3/03_Intro.md)

@@ -195,6 +195,6 @@ Y finalmente puedo simplemente salir "exit" y se escapa de eso:
  
 Así que eso es nuestro añadido. Así es cómo puedes añadir memoria a tu agente de IA. Así que de nuevo, si tuviste algún problema o inconveniente con esto, házmelo saber en los mensajes.
 
-Anterior --> [**Click aquí**](./01d_ConstruirAgenteIASimple.md)
+Anterior página: Construir Agente de IA --> [**Click aquí**](./01d_ConstruirAgenteIASimple.md)
 
-Siguiente --> [**Click aquí**](./01f_Interfazweb.md)
+Siguiente página: Interfaz Web --> [**Click aquí**](./01f_Interfazweb.md)

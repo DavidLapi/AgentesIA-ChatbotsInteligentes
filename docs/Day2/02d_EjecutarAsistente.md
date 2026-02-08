@@ -75,6 +75,6 @@ pip install pyaudio
 
 Con esto debería de funcionar. Si surge algún otro problema, coméntame en los comentarios.
 
-Anterior --> [**Click aquí**](./02c_ArrancarAsistente.md)
+Anterior página: Arrancar Asistente --> [**Click aquí**](./02c_ArrancarAsistente.md)
 
-Siguiente --> [**Click aquí**](./02e_AsistenteDeVozConUI.md)
+Siguiente página: Asistente de Voz con Interfaz Web --> [**Click aquí**](./02e_AsistenteDeVozConUI.md)

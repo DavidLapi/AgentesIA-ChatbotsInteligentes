@@ -38,6 +38,6 @@ Una vez hecho, accedemos a la carpeta creada "Day3" y crearemos el archivo, pero
 
 Así que una vez que estén instaladas, estarás listo para construir nuestro raspador web de IA.
 
-Anterior --> [**Click aquí**](./03_Intro.md)
+Anterior página: Intro --> [**Click aquí**](./03_Intro.md)
 
-Siguiente --> [**Click aquí**](./03b_WebScraper.md)
+Siguiente página: Web Scrapper--> [**Click aquí**](./03b_WebScraper.md)

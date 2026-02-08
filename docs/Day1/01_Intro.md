@@ -18,4 +18,4 @@ Ollama es la herramienta que usaremos para construir nuestros agentes de IA loca
 
 Al final de hoy, tendrás un agente de IA funcionando localmente en tu máquina.
 
-Siguiente --> [**Click aquí**](./01a_AgentesIA.md)
+Siguiente página: Agentes de IA --> [**Click aquí**](./01a_AgentesIA.md)

@@ -200,6 +200,6 @@ Esto se debe a que la IA no tiene agregada la memoria para recordar lo que vino 
 
 Ya tenemos nuestro primer chatbot básico para poder aprender.
 
-Anterior --> [**Click aquí**](./01c_ModeloAgentesIA.md)
+Anterior página: Modelos de IA --> [**Click aquí**](./01c_ModeloAgentesIA.md)
 
-Siguiente --> [**Click aquí**](./01e_agregarmemoria.md)
+Siguiente página: Agregar Memoria --> [**Click aquí**](./01e_agregarmemoria.md)

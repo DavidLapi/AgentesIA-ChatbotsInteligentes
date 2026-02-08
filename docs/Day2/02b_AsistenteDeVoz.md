@@ -254,6 +254,6 @@ Y hasta aquí, ya hemos terminado toda nuestra aplicación, como podemos ver en 
 
 Hemos creado el script de Python que escucha, procesa y responde. 🎉
 
-Anterior --> [**Click aquí**](./02a_Dependencias.md)
+Anterior página: Dependencias --> [**Click aquí**](./02a_Dependencias.md)
 
-Siguiente --> [**Click aquí**](./02c_ArrancarAsistente.md)
+Siguiente página: Arrancar Asistente --> [**Click aquí**](./02c_ArrancarAsistente.md)

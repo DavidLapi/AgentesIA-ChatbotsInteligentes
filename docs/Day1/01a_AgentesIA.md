@@ -32,6 +32,6 @@ Agentes de IA --> **Sí tiene**. Es generado por IA. Cada vez que la IA está ap
 
 Estaremos viendo la implementación de todos estos diferentes tipos de agentes en este curso en particular durante los próximos días.
 
-Anterior --> [**Click aquí**](./01_Intro.md)
+Anterior página: Intro --> [**Click aquí**](./01_Intro.md)
 
-Siguiente --> [**Click aquí**](./01b_Ollama.md)
+Siguiente página: Ollama --> [**Click aquí**](./01b_Ollama.md)

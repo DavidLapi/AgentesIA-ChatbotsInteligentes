@@ -396,6 +396,6 @@ Así que, si también intento buscar estas cosas, problablemente lo encontraré 
 
 Así que espero que hayas podido seguir y hacer que esto funcione tanto para construir un simple raspador web de IA con la interfaz de usuario como para construirlo y almacenarlo dentro de una base de datos vectorial.
 
-Anterior --> [**Click aquí**](./03d_ExeWebScraperIA.md)
+Anterior página: Ejecutar Web Scrapper --> [**Click aquí**](./03d_ExeWebScraperIA.md)
 
-Día 4 --> [**Click aquí**](../Day4/04_Intro.md)
+Pasar al día 4 --> [**Click aquí**](../Day4/04_Intro.md)

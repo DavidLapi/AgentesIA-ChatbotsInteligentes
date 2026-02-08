@@ -62,6 +62,6 @@ Nos sale todo resumido. Con los personajes que hay en la película de los Muppet
 
 Así que nada, ya tenemos nuestra aplicación en funcionamiento. Espero que hayas podido seguir y hacer que esto funcione.
 
-Anterior --> [**Click aquí**](./03c_FuncionScraper.md)
+Anterior página: Funcionalidad Web Scrapper --> [**Click aquí**](./03c_FuncionScraper.md)
 
-Almacenar Datos Extraídos en una Base de Datos Vectorial --> [**Click aquí**](./03e_DataBaseScraper.md)
+Siguiente página: Almacenar Datos Extraídos en una Base de Datos Vectorial --> [**Click aquí**](./03e_DataBaseScraper.md)

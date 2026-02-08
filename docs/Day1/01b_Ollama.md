@@ -60,6 +60,6 @@ Si no te da una versión, eso significa que hay algo mal.
 Si persiste el error ""ollama" no se reconoce como un comando interno o externo,
 programa o archivo por lotes ejecutable." u otro error, hazmelo saber en comentarios.
 
-Anterior --> [**Click aquí**](./01a_AgentesIA.md)
+Anterior página: Agentes de IA --> [**Click aquí**](./01a_AgentesIA.md)
 
-Siguiente --> [**Click aquí**](./01c_ModeloAgentesIA.md)
+Siguiente página: Modelos de IA --> [**Click aquí**](./01c_ModeloAgentesIA.md)

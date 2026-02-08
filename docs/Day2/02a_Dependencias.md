@@ -30,6 +30,6 @@ Una vez instalado las dependencias limpiamos la pantalla (ejecutar **cls** o **c
 
 Esto completa nuestra instalacion de dependencias.
 
-Anterior --> [**Click aquí**](./02_Intro.md)
+Anterior página: Intro --> [**Click aquí**](./02_Intro.md)
 
-Siguiente --> [**Click aquí**](./02b_AsistenteDeVoz.md)
+Siguiente página: Asistente de Voz --> [**Click aquí**](./02b_AsistenteDeVoz.md)

@@ -15,6 +15,6 @@ El objetivo de hoy es construir un asistente personal impulsado por IA que pueda
 
 Así que al final del segundo día tendrás un asistente de control por voz de IA completamente funcional. Así que comencemos con nuestro asistente personal impulsado por IA.
 
-Siguiente --> [**Click aquí**](02a_Dependencias.md)
+Siguiente página: Dependencias --> [**Click aquí**](02a_Dependencias.md)
 
-Día anterior --> [**Click aquí**](../Day1/01_Intro.md)
+Volver al día 1 --> [**Click aquí**](../Day1/01_Intro.md)

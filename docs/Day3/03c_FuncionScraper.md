@@ -14,6 +14,6 @@ Entonces digamos que vas a Wikipedia o alguna página o sitio de noticias, y obt
 
 Este sería todo el proceso. Sólo tiene que encontrar la URL que deseas usar y luego dársela al sitio web (al raspador), y la IA hará todo el trabajo de *rasparla*, *resumirla* y *darte el resultado*.
 
-Anterior --> [**Click aquí**](./03b_WebScraper.md)
+Anterior página: Web Scrapper --> [**Click aquí**](./03b_WebScraper.md)
 
-Siguiente --> [**Click aquí**](./03d_ExeWebScraperIA.md)
+Siguiente página: Ejecutar Web Scrapper --> [**Click aquí**](./03d_ExeWebScraperIA.md)

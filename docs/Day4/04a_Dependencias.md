@@ -36,4 +36,4 @@ Una vez que estén todos instalados, estaremos listos para crear o construir el 
 
 Anterior página: Introducción --> [**Click aquí**](./04_Intro.md)
 
-Siguiente página: Construir el Lector de Documentos de IA --> Proximamente...
+Siguiente página: Construir el Lector de Documentos de IA --> [**Click aquí**](./04b_LectorDocumentos.md)

@@ -2,7 +2,7 @@
 
 Lo que vamos a hacer aquí es **mejorar** nuestro raspador web con estas mejoras:
 
-- Almacenamos el contenido web extraído en una *base de datos vectorial* que es **FAISS**.
+- Almacenamos el contenido web extraído en una *base de datos vectorial* que es **FAISS** (Facebook AI Similarity Search).
 
 - Permitimos a los usuarios *buscar en el conocimiento almacenado*.
 

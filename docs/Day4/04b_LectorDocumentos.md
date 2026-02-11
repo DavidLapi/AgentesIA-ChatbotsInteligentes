@@ -279,4 +279,4 @@ Nuestro siguiente paso será entender qué hace este lector.
 
 Anterior página: Dependencias --> [**Click aquí**](./04a_Dependencias.md)
 
-Siguiente página: Cómo funciona el Lector de Documentos de IA --> Proximamente...
+Siguiente página: Cómo funciona el Lector de Documentos de IA --> [**Click aquí**](./04c_FuncionLector.md)

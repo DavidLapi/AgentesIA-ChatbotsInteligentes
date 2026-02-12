@@ -58,4 +58,4 @@ Espero que hayas podido seguir y obtener este mismo resultado basado en el códi
 
 Anterior página: Cómo funciona el Lector de Documentos de IA --> [**Click aquí**](./04c_FuncionLector.md)
 
-Siguiente página: Habilitar la Descarga de Archivos de Reportes Resumidos por IA --> Proximamente...
+Siguiente página: Habilitar la Descarga de Archivos de Reportes Resumidos por IA --> [**Click aquí**](./04e_ArchivosReportes.md)
